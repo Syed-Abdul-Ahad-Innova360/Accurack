@@ -1,0 +1,38 @@
+import React from 'react';
+import CashFlowCards from '../Cards/CashFlowCards';
+
+function Cashflow() {
+  return (
+    <div className="flex flex-col items-center justify-center gap-5 px-4">
+      <div className="mt-32 text-5xl font-bold text-[#0F172A] fonts text-center flex flex-col gap-1.5 justify-center items-center">
+        <div>Cash Flow <span className="text-[var(--primary-color)]">Optimization</span> Engine</div>
+        <img src="/underline.svg" alt="underline" />
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-6xl">
+        <CashFlowCards
+        //   icon={<DollarSign size={32} />}
+          title="Reduce Tied-Up Capital"
+          description="Free up to 42% of your capital within just 90 days by optimizing inventory levels and purchase timing."
+        />
+        <CashFlowCards
+        //   icon={<Clock size={32} />}
+          title="Real-Time Forecasting"
+          description="Experience 95% accurate cash flow predictions that help you make informed financial decisions."
+        />
+        <CashFlowCards
+        //   icon={<AlertTriangle size={32} />}
+          title="Smart Alerts"
+          description="Receive proactive cash preservation alerts before you reach critical thresholds, preventing cash crunches."
+        />
+        <CashFlowCards
+        //   icon={<CreditCard size={32} />}
+          title="Automated Payments"
+          description="Schedule supplier payments intelligently to maximize cash availability while maintaining vendor relationships."
+        />
+      </div>
+    </div>
+  );
+}
+
+export default Cashflow;
