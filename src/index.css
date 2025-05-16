@@ -57,3 +57,20 @@
   display: inline-block;
   animation: marquee 10s linear infinite;
 }
+
+
+@media (max-width: 767px) {
+  .media-hero-text {
+    @apply text-center items-center justify-center;
+  }
+  .top-margin{
+    @apply mt-10;
+  }
+}
+
+
+@media (min-width:768px){
+  .top-margin{
+    margin-top: 160px;
+  }
+}

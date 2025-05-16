@@ -1,18 +1,17 @@
-import React from 'react'
 import SecondaryButton from './../Buttons/SecondaryButton'
 import PrimaryButton from './../Buttons/PrimaryButton'
 
 function Hero() {
   return (
-    <div className='flex w-[98vw] h-[100vh] justify-center bg-[linear-gradient(0deg,_#ffffff_30%,_var(--header-color)_100%)]'>
+    <div className='flex w-auto  flex-col md:flex-row lg:flex-row h-max justify-center bg-[linear-gradient(0deg,_#ffffff_30%,_var(--header-color)_100%)]'>
       {/* left side */}
-      <div className='flex flex-col gap-5 mt-40 ml-20 w-[65rem]'>
+      <div className='flex flex-col gap-5 top-margin md:ml-20 lg:ml-20 md:w-[65rem] lg:[27rem] media-hero-text'>
         <div>
           <SecondaryButton cssClasses='flex gap-3 on-hover'>
             <img src="/icons/chatIcon.svg" alt="" />
             Chat with us
           </SecondaryButton>
-          <img className='absolute z-10 top-32 left-[35%]' src="/arrow.svg" alt="" />
+          <img className='absolute z-10 top-32 left-[35%] hidden md:block lg:block' src="/arrow.svg" alt="" />
         </div>
         <div className='flex flex-col w-[75%] gap-6'>
           <h1 className='text-4xl text-[#0F172A] fonts'>
@@ -23,14 +22,22 @@ function Hero() {
           </p>
         </div>
         <div className='flex gap-2.5'>
-          <input type="text" placeholder='Input text here' className='hero-input'/>
+          <input type="text" placeholder='Input text here' className='hero-input' />
           <PrimaryButton cssClasses='rounded-sm'>Request Demo-</PrimaryButton>
         </div>
       </div>
 
 
       {/* right side */}
-      <div className='w-[100%] h-[98vh] m-0 mt-20'><img src="/PhoneHero.svg" className='w-[100%] m-0 p-0' alt="picture" /></div>
+      {/* right side - visible only on medium and up */}
+      <div className="hidden md:block w-[100%] h-[98vh] mt-20">
+        <img src="/PhoneHero.svg" className="w-full m-0 p-0" alt="picture" />
+      </div>
+
+      {/* right side alternative for mobile only */}
+      <div className="md:hidden flex justify-center items-center w-full h-[50vh] mt-5">
+        <img src="/phoneHeroFull.svg" className="w-[80%] mx-auto mt-4" alt="mobile version" />
+      </div>
     </div>
   )
 }
