@@ -1,4 +1,3 @@
-import React from 'react';
 import CashFlowCards from '../Cards/CashFlowCards';
 
 function Cashflow() {

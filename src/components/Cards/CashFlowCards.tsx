@@ -1,6 +1,3 @@
-import React from 'react';
-import type { ReactNode, JSX } from "react"
-
 
 type CashFlowCardProps = {
   icon?: string;
