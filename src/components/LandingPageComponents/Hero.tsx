@@ -3,7 +3,7 @@ import PrimaryButton from './../Buttons/PrimaryButton'
 
 function Hero() {
   return (
-    <div className='flex w-auto  flex-col md:flex-row lg:flex-row h-max justify-center bg-[linear-gradient(0deg,_#ffffff_30%,_var(--header-color)_100%)]'>
+    <div className='flex w-full  flex-col md:flex-row lg:flex-row h-max justify-center bg-[linear-gradient(0deg,_#ffffff_30%,_var(--header-color)_100%)]'>
       {/* left side */}
       <div className='flex flex-col gap-5 top-margin md:ml-20 lg:ml-20 md:w-[65rem] lg:[27rem] media-hero-text'>
         <div>
