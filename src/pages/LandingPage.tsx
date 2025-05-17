@@ -10,6 +10,8 @@ import FinancialReporting from '../components/LandingPageComponents/FinancialRep
 import Payroll from "../components/LandingPageComponents/Payroll"
 import LogoMarquee from "../components/LandingPageComponents/LogoMarquee"
 import BusinessGrowth from "../components/LandingPageComponents/BusinessGrowth"
+import Enterprise from "../components/LandingPageComponents/Enterprise"
+import Footer from "../components/LandingPageComponents/Footer"
 
 function LandingPage() {
   return (
@@ -25,6 +27,8 @@ function LandingPage() {
         <Payroll/>
         <LogoMarquee/>
         <BusinessGrowth/>
+        <Enterprise/>
+        <Footer/>
     </>
   )
 }

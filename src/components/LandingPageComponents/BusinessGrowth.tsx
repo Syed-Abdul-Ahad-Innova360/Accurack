@@ -40,7 +40,7 @@ function BusinessGrowth() {
             </div>
 
             {/* Images */}
-            <div className="mt-16 px-4">
+            <div className="mt-16 px-4 pb-10">
                 <div className="mt-16 px-4">
                     <div className="flex flex-col items-center justify-center gap-14 md:grid md:grid-cols-2 md:gap-10 md:justify-items-center max-w-5xl m-auto">
                         <img src="/bg1.png" alt="bg1" className="w-full max-w-xs" />

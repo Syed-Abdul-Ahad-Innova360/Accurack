@@ -5,7 +5,7 @@ function Automated() {
       style={{ backgroundImage: `url(/AutomatedBg.png)` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#117D90]/65"></div>
+      <div className="absolute inset-0 bg-[rgba(17,125,144,0.65)]"></div>
 
       {/* Your content goes here */}
       <div className="relative z-10 text-white p-10">
