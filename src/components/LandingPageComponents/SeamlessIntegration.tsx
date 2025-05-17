@@ -10,7 +10,7 @@ function SeamlessIntegration() {
         </div>
         <div className='w-[80%]'><img src="/phone.png" alt="phone" /></div>
     </div>
-    <div className='relative h-[9rem] -z-10 bottom-64'><img src="/lines.svg" alt="lines" /></div>
+    <div className='relative md:h-[9rem] lg:h-[9rem] h-[6rem] -z-10 bottom-14 md:bottom-64 lg:bottom-64'><img src="/lines.svg" alt="lines" /></div>
     </>
   )
 }

@@ -7,6 +7,9 @@ import InventoryForcasting from '../components/LandingPageComponents/InventoryFo
 import SeamlessIntegration from '../components/LandingPageComponents/SeamlessIntegration'
 import Automated from '../components/LandingPageComponents/Automated'
 import FinancialReporting from '../components/LandingPageComponents/FinancialReporting'
+import Payroll from "../components/LandingPageComponents/Payroll"
+import LogoMarquee from "../components/LandingPageComponents/LogoMarquee"
+import BusinessGrowth from "../components/LandingPageComponents/BusinessGrowth"
 
 function LandingPage() {
   return (
@@ -19,6 +22,9 @@ function LandingPage() {
         <SeamlessIntegration/>
         <Automated/>
         <FinancialReporting/>
+        <Payroll/>
+        <LogoMarquee/>
+        <BusinessGrowth/>
     </>
   )
 }
