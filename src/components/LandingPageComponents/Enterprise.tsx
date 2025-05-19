@@ -53,19 +53,25 @@ function Enterprise() {
           alt="Pentagon"
           className="w-48 mx-auto mb-6"
         />
-        <div className="flex overflow-x-auto space-x-4 px-4 snap-x snap-mandatory mt-20">
-          {["enterprise1.png", "enterprise2.png", "enterprise3.png", "enterprise4.png"].map((img, idx) => (
-            <img
-              key={idx}
-              src={`/${img}`}
-              alt={`Enterprise card ${idx + 1}`}
-              className="snap-center flex-shrink-0 w-64"
-            />
-          ))}
+        <div className="overflow-hidden">
+          <div className="flex animate-scroll space-x-4 w-max">
+            {[...Array(2)].flatMap(() =>
+              ["enterprise1.png", "enterprise2.png", "enterprise3.png", "enterprise4.png"].map((img, idx) => (
+                <img
+                  key={`${img}-${idx}`}
+                  src={`/${img}`}
+                  alt={`Enterprise card ${idx + 1}`}
+                  className="w-64 flex-shrink-0"
+                />
+              ))
+            )}
+          </div>
         </div>
       </div>
+
     </div>
   );
 }
 
 export default Enterprise;
+

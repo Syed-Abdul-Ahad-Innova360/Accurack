@@ -38,7 +38,7 @@ function Header() {
         {/* Hamburger / Cross Icon Toggle */}
         <div className="lg:hidden ml-2">
           {isMenuOpen ? (
-            <FiX size={28} color="#117D90" onClick={toggleMenu} className="cursor-pointer" />
+            <FiX size={24} color="#117D90" onClick={toggleMenu} className="cursor-pointer" />
           ) : (
             <FiMenu size={24} color="#117D90" onClick={toggleMenu} className="cursor-pointer" />
           )}
