@@ -21,7 +21,7 @@ function Hero() {
             AI-powered system that resolves 87% of cashflow issues, trusted by 10,000+  businesses across 35 countries. Experience an average 32% reduction in  excess inventory costs with our comprehensive solution
           </p>
         </div>
-        <div className='flex gap-2.5'>
+        <div className='flex gap-2.5 justify-center items-center'>
           <input type="text" placeholder='Input text here' className='hero-input' />
           <PrimaryButton cssClasses='rounded-sm'>Request Demo-</PrimaryButton>
         </div>
