@@ -59,13 +59,20 @@
 }
 
 
+
+
 @media (max-width: 767px) {
   .media-hero-text {
     @apply text-center items-center justify-center;
   }
+
   .top-margin{
     @apply mt-10;
   }
+
+  .hero-input{
+    width: 50%;
+}
 }
 
 
