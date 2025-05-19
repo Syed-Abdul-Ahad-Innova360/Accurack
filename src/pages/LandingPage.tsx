@@ -17,6 +17,7 @@ function LandingPage() {
   return (
     <>
         <Header/>
+        <img src="chatIcon.svg" alt="chat" className="cursor-pointer top-[25%] fixed left-[5%] z-[999999]"/>
         <Hero/>
         <Tagline/>
         <Cashflow/>

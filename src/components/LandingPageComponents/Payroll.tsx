@@ -5,6 +5,7 @@ import React from 'react';
 import PayrollCard from '../Cards/PayrollCard';
 
 const Payroll: React.FC = () => {
+    
     return (
         <div className="relative w-full overflow-x-hidden h-[700px] bg-[#F9FEFF] overflow-hidden flex items-center justify-center px-4 mt-20">
             {/* Background SVGs */}
@@ -32,7 +33,7 @@ const Payroll: React.FC = () => {
                 <img src="/underline.svg" alt="underline" className="mx-auto my-2" />
 
                 {/* Cards */}
-                <div className="mt-10 flex flex-row justify-center md:justify-center gap-6 overflow-x-auto md:overflow-x-visible px-4 md:px-0 snap-x snap-mandatory scroll-smooth">
+                <div className="mt-10 flex flex-row md:justify-center gap-6 overflow-x-auto md:overflow-x-visible px-4 md:px-0 snap-x snap-mandatory scroll-smooth">
                     <PayrollCard
                         heading="FEATURE"
                         list={[
@@ -71,3 +72,4 @@ const Payroll: React.FC = () => {
 };
 
 export default Payroll;
+
