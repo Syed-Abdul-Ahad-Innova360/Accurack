@@ -14,14 +14,14 @@ function Footer() {
                     <input
                         type="text"
                         placeholder="First name"
-                        className="px-4 py-2 rounded w-full md:w-60 text-black bg-amber-50"
+                        className="px-4 py-2 rounded md:w-60 text-black bg-amber-50 w-[12rem] lg:w-60 xl:w-60"
                     />
                     <input
                         type="email"
                         placeholder="Email address"
-                        className="px-4 py-2 rounded w-full md:w-60 text-black bg-amber-50"
+                        className="px-4 py-2 rounded md:w-60 text-black bg-amber-50 w-[12rem] lg:w-60 xl:w-60"
                     />
-                    <button className="bg-[var(--dark-primary)] hover:bg-gray-800 text-white px-6 py-2 rounded cursor-pointer">
+                    <button className="bg-[var(--dark-primary)] hover:bg-gray-800 text-white px-6 py-2 rounded cursor-pointer w-[12rem] lg:w-60 xl:w-60">
                         Subscribe Us
                     </button>
                 </div>
