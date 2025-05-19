@@ -1,7 +1,7 @@
 function Automated() {
   return (
     <div
-      className="relative w-full h-screen bg-cover bg-center"
+      className="relative w-full h-screen bg-cover bg-center overflow-x-hidden"
       style={{ backgroundImage: `url(/AutomatedBg.png)` }}
     >
       {/* Overlay */}

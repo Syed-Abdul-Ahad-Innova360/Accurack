@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <footer className="bg-[#F8FAFC] text-white pt-10 mt-40">
+        <footer className="bg-[#F8FAFC] text-white pt-10 mt-40 overflow-x-hidden">
             {/* Newsletter */}
             <div className="max-w-6xl mx-auto py-14 px-20 mt-20 w-[80%] bg-[var(--primary-color)] rounded-xl">
                 <h2 className="text-2xl font-semibold text-center mb-6">

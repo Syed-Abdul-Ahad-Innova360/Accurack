@@ -1,6 +1,6 @@
 function InventoryForcasting() {
   return (
-    <div className="flex flex-col items-center justify-center mt-20 md:mt-40 lg:mt-40">
+    <div className="flex flex-col items-center justify-center mt-20 md:mt-40 lg:mt-40 overflow-x-hidden">
         <div className="text-4xl md:text-5xl lg:text-5xl font-bold text-[#0F172A] fonts text-center gap-1.5 flex flex-col">
             <div>Intelligent Inventory <span className="text-[var(--primary-color)]">Forecasting</span></div>
             <img src="/underline.svg" className="md:ml-96 lg:ml:96 m-auto" alt="underline" />

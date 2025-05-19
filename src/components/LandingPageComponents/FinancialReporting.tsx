@@ -2,7 +2,7 @@ import SecondaryButton from "../Buttons/SecondaryButton";
 
 function FinancialReporting() {
     return (
-        <div className='mt-20 grid grid-cols-1 md:grid-cols-2 md:gap-10 items-center justify-center md:pl-20'>
+        <div className='mt-20 grid grid-cols-1 md:grid-cols-2 md:gap-10 items-center justify-center md:pl-20 overflow-x-hidden'>
             {/* Column 1 - Heading */}
             <div className="text-4xl md:text-5xl lg:text-5xl font-bold text-[#0F172A] fonts text-center gap-1.5 flex flex-col">
                 <div>

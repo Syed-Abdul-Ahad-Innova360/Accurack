@@ -4,7 +4,7 @@ import SecondaryButton from './../Buttons/SecondaryButton';
 
 function Header() {
   return (
-    <div className='flex justify-around items-center h-20 bg-[var(--header-color)] drop-shadow-[rgba(0,0,0,0.12)] border border-[rgba(0,0,0,0.12)]'>
+    <div className='flex justify-around items-center h-20 bg-[var(--header-color)] drop-shadow-[rgba(0,0,0,0.12)] border border-[rgba(0,0,0,0.12)] overflow-x-hidden'>
         <div className="flex justify-between items-center gap-2.5">
             <img src="/logo.svg" className="md:w-10 md:h-10 w-10 h-10" alt="logo" />
             <img src="/logoName.svg" className="md:w-[93px] md:h-[33px] w-24 h-10" alt="Accurack" />

@@ -4,7 +4,7 @@ const logos = [
 
 export default function LogoMarquee() {
   return (
-    <div className="overflow-hidden whitespace-nowrap w-full py-4">
+    <div className="overflow-hidden whitespace-nowrap w-full py-4 overflow-x-hidden">
       <div className="inline-block animate-marquee">
         {logos.map((name, index) => (
           <span

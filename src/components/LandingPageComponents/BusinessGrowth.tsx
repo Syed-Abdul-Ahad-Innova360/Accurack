@@ -18,7 +18,7 @@
 
 function BusinessGrowth() {
     return (
-        <div className="bg-[#065B6A] mt-20">
+        <div className="bg-[#065B6A] mt-20 overflow-x-hidden">
             {/* Heading */}
             <div className="text-4xl md:text-5xl lg:text-5xl font-bold text-[#f9fafd] fonts text-center gap-1.5 flex flex-col">
                 <div className="mt-20">

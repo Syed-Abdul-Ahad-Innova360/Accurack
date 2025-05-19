@@ -110,7 +110,7 @@ import PayrollCard from '../Cards/PayrollCard';
 
 const Payroll: React.FC = () => {
     return (
-        <div className="relative w-full h-[700px] bg-[#F9FEFF] overflow-hidden flex items-center justify-center px-4 mt-20">
+        <div className="relative w-full overflow-x-hidden h-[700px] bg-[#F9FEFF] overflow-hidden flex items-center justify-center px-4 mt-20">
             {/* Background SVGs */}
             <img
                 src="/curvesTopLeft.svg"

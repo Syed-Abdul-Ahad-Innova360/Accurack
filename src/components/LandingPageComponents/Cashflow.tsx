@@ -2,7 +2,7 @@ import CashFlowCards from '../Cards/CashFlowCards';
 
 function Cashflow() {
   return (
-    <div className="flex flex-col items-center justify-center gap-5 px-4">
+    <div className="flex flex-col items-center justify-center gap-5 px-4 overflow-x-hidden">
       <div className="mt-32 md:text-5xl lg:text-5xl text-4xl font-bold text-[#0F172A] fonts text-center flex flex-col gap-1.5 justify-center items-center">
         <div>Cash Flow <span className="text-[var(--primary-color)]">Optimization</span> Engine</div>
         <img src="/underline.svg" alt="underline" />
