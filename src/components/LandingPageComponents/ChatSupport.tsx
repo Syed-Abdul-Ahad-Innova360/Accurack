@@ -3,7 +3,7 @@ import React,{ useState } from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
 import { IoMdSend } from 'react-icons/io';
 
-function Chatbot({ setIsChatOpen }: { setIsChatOpen: React.Dispatch<React.SetStateAction<boolean>> }) {
+function ChatSupport({ setIsChatOpen }: { setIsChatOpen: React.Dispatch<React.SetStateAction<boolean>> }) {
   const [messages, setMessages] = useState([
     {
       sender: 'Accurack',
@@ -107,4 +107,4 @@ function Chatbot({ setIsChatOpen }: { setIsChatOpen: React.Dispatch<React.SetSta
   );
 }
 
-export default Chatbot;
+export default ChatSupport

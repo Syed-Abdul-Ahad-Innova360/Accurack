@@ -13,7 +13,7 @@ import BusinessGrowth from "../components/LandingPageComponents/BusinessGrowth";
 import Enterprise from "../components/LandingPageComponents/Enterprise";
 import InventoryManagement from "../components/LandingPageComponents/InventoryManagement";
 import Footer from "../components/LandingPageComponents/Footer";
-import Chatbot from '../components/LandingPageComponents/Chatbot';
+import ChatSupport from '../components/LandingPageComponents/ChatSupport';
 
 function LandingPage() {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -28,7 +28,7 @@ function LandingPage() {
         className="cursor-pointer bottom-[3%] fixed right-[3%] z-[999999]"
       />) 
       :
-        <Chatbot setIsChatOpen={setIsChatOpen}/>
+        <ChatSupport setIsChatOpen={setIsChatOpen}/>
       }
 
 
