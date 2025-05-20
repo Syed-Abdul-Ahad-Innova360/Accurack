@@ -13,7 +13,6 @@ import BusinessGrowth from "../components/LandingPageComponents/BusinessGrowth";
 import Enterprise from "../components/LandingPageComponents/Enterprise";
 import InventoryManagement from "../components/LandingPageComponents/InventoryManagement";
 import Footer from "../components/LandingPageComponents/Footer";
-// import ChatBot from "./../components/LandingPageComponents/ChatBot"
 import ChatBot from '../components/LandingPageComponents/Chatbot';
 
 function LandingPage() {
@@ -22,13 +21,16 @@ function LandingPage() {
   return (
     <>
       <Header />
-      <img
+      {isChatOpen == false ? (<img
         src="chatIcon.svg"
         alt="chat"
         onClick={() => setIsChatOpen(!isChatOpen)}
         className="cursor-pointer bottom-[3%] fixed right-[3%] z-[999999]"
-      />
-      {isChatOpen && <ChatBot />}
+      />) :
+        <ChatBot setIsChatOpen={setIsChatOpen}/>
+      }
+
+
       <Hero />
       <Tagline />
       <Cashflow />
