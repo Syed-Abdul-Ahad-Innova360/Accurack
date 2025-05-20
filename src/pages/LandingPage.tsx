@@ -13,7 +13,7 @@ import BusinessGrowth from "../components/LandingPageComponents/BusinessGrowth";
 import Enterprise from "../components/LandingPageComponents/Enterprise";
 import InventoryManagement from "../components/LandingPageComponents/InventoryManagement";
 import Footer from "../components/LandingPageComponents/Footer";
-import ChatBot from '../components/LandingPageComponents/Chatbot.tsx';
+import ChatBot from '../components/LandingPageComponents/Chatbot';
 
 function LandingPage() {
   const [isChatOpen, setIsChatOpen] = useState(false);
