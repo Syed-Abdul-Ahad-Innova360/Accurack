@@ -35,7 +35,7 @@ function Automated() {
       </div>
 
       {/* Grid of Images with Animation */}
-      <div className="md:grid md:grid-cols-2 lg:grid lg:grid-cols flex flex-col justify-center gap-15 mt-24 place-items-center">
+      <div className="md:grid md:grid-cols-2 lg:grid lg:grid-cols flex flex-col justify-center gap-15 mt-24 place-items-center px-4">
         {['left', 'right', 'left', 'right'].map((direction, index) => (
           <motion.div
             key={index}
@@ -44,7 +44,7 @@ function Automated() {
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
-            <img src="/Automated1.svg" className="size-[95%]" alt="picture" />
+            <img src={`/Automated1.svg`} className="size-[90%]" alt="picture" />
           </motion.div>
         ))}
       </div>

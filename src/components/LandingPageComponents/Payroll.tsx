@@ -12,7 +12,7 @@ const Payroll: React.FC = () => {
             <img
                 src="/curvesTopLeft.svg"
                 alt="Top Left Curve"
-                className="absolute md:top-[-75px] lg:top-[-75px] top-0 left-0 w-[30vw] max-w-[600px] min-w-[200px] object-contain transition-all duration-300 z-10"
+                className="absolute md:top-[-75px] lg:top-[-75px] -top-20 -left-10 w-[30vw] max-w-[600px] min-w-[200px] object-contain transition-all duration-300 z-10"
             />
             <img
                 src="/curvesBottomRight.svg"
@@ -27,13 +27,13 @@ const Payroll: React.FC = () => {
 
             {/* Content */}
             <div className="relative top-20 md:top-0 lg:top-0 z-20 text-center max-w-6xl w-full">
-                <h1 className="text-3xl md:text-5xl font-semibold text-[#0F172A]">
+                <h1 className="text-3xl md:text-5xl font-semibold text-[#0F172A] relative bottom-30">
                     Streamlined Payroll <span className="text-[var(--primary-color)]">Management</span>
                 </h1>
-                <img src="/underline.svg" alt="underline" className="mx-auto my-2" />
+                {/* <img src="/underline.svg" alt="underline" className="mx-auto my-2" /> */}
 
                 {/* Cards */}
-                <div className="mt-10 flex flex-row md:justify-center gap-6 overflow-x-auto md:overflow-x-visible px-4 md:px-0 snap-x snap-mandatory scroll-smooth">
+                <div className="flex flex-row md:justify-center gap-6 overflow-x-auto md:overflow-x-visible px-4 md:px-0 snap-x snap-mandatory scroll-smooth">
                     <PayrollCard
                         heading="FEATURE"
                         list={[

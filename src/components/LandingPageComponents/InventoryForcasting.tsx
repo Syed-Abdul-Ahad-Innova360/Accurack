@@ -34,7 +34,7 @@ function InventoryForcasting() {
         <motion.img
           src="/inventory.png"
           alt="picture"
-          className="md:h-[70vh] lg:h-[70vh]"
+          className="md:h-[70vh] lg:h-[70vh] w-[90vw]"
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.3 }}

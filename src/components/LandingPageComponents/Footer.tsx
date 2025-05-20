@@ -41,7 +41,6 @@ function Footer() {
                             <FaFacebook size={32} />
                             <FaTwitterSquare size={32} />
                             <FaInstagram size={32} />
-                            <IoLogoGithub size={32} />
                         </div>
                     </div>
 
@@ -81,8 +80,12 @@ function Footer() {
 
 
                 {/* Bottom copyright */}
-                <div className="text-center text-sm border-t border-gray-200 pt-4 mt-24">
-                    © Copyright 2022, All Rights Reserved by Accurack
+                <div className="text-center text-sm border-t border-gray-200 pt-4 mt-24 flex flex-col gap-1.5">
+                    <span>© Copyright 2022, All Rights Reserved by Accurack</span>
+                    <div className="flex justify-center items-center gap-7">          
+                        <Link to="#">Privacy & Policy</Link>
+                        <Link to="#">Terms & Conditions</Link>
+                    </div>
                 </div>
             </div>
         </footer>

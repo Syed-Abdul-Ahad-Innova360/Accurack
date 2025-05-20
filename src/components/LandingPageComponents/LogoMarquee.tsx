@@ -1,4 +1,5 @@
 const logos = [
+  "The Washington Post", "TechCrunch", "Bloomberg", "GIZMODO", "Forbes", "The Telegraph",
   "The Washington Post", "TechCrunch", "Bloomberg", "GIZMODO", "Forbes", "The Telegraph"
 ];
 

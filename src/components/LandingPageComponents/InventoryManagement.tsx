@@ -248,7 +248,7 @@ function InventoryManagement() {
                   animate={{ opacity: 1, height: 'auto' }}
                   exit={{ opacity: 0, height: 0 }}
                   transition={{ duration: 0.4, ease: 'easeInOut' }}
-                  className="mt-4 text-lg text-[var(--primary-color)] max-w-2xl overflow-hidden"
+                  className="mt-4 text-lg text-gray-500 max-w-2xl overflow-hidden"
                 >
                   You can start immediately. Our platform is ready out of the box, and our team assists with setup and data import in just a few hours.
                   Most businesses are fully operational on the platform within one business day.
@@ -272,7 +272,7 @@ function InventoryManagement() {
                   animate={{ opacity: 1, height: 'auto' }}
                   exit={{ opacity: 0, height: 0 }}
                   transition={{ duration: 0.4, ease: 'easeInOut' }}
-                  className="mt-4 text-lg text-[var(--primary-color)] max-w-2xl overflow-hidden"
+                  className="mt-4 text-lg text-gray-500 max-w-2xl overflow-hidden"
                 >
                   No long-term commitments are required. You can choose a monthly plan and cancel anytime.
                   We also offer discounts for annual subscriptions, but they’re entirely optional.

@@ -45,7 +45,7 @@ import { motion } from 'framer-motion';
 
 function BusinessGrowth() {
     return (
-        <div className="bg-[#065B6A] mt-20 overflow-x-hidden pb-28">
+        <div className="bg-[#065B6A] mt-5 overflow-x-hidden pb-28">
             {/* Heading */}
             <motion.div
                 initial={{ opacity: 0, y: -40 }}
