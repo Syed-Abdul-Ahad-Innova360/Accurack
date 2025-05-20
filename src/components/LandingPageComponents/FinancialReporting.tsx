@@ -8,7 +8,7 @@ function FinancialReporting() {
                 <div>
                     Comprehensive Financial <span className="text-[var(--primary-color)]">Reporting</span>
                 </div>
-                <img src="/underline.svg" className="md:ml-0 m-auto" alt="underline" />
+                {/* <img src="/underline.svg" className="md:ml-0 m-auto" alt="underline" /> */}
             </div>
 
             {/* Column 2 - Image (spanning two rows) */}

@@ -1,4 +1,3 @@
-import SecondaryButton from './../Buttons/SecondaryButton'
 import PrimaryButton from './../Buttons/PrimaryButton'
 
 function Hero() {
@@ -7,10 +6,10 @@ function Hero() {
       {/* left side */}
       <div className='flex flex-col gap-5 top-margin md:ml-20 lg:ml-20 md:w-[65rem] lg:[27rem] media-hero-text'>
         <div>
-          <SecondaryButton cssClasses='flex gap-3 on-hover'>
+          {/* <SecondaryButton cssClasses='flex gap-3 on-hover'>
             <img src="/icons/chatIcon.svg" alt="" />
             Chat with us
-          </SecondaryButton>
+          </SecondaryButton> */}
           <img className='absolute z-10 top-32 left-[35%] hidden md:block lg:block' src="/arrow.svg" alt="" />
         </div>
         <div className='flex flex-col w-[75%] gap-6'>

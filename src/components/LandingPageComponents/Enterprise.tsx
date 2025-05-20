@@ -1,7 +1,7 @@
 
 function Enterprise() {
   return (
-    <div className="max-w-6xl mx-auto p-6 overflow-x-hidden">
+    <div className="max-w-6xl mx-auto p-6 overflow-x-hidden mb-20">
       <div className="mt-32 md:text-5xl lg:text-5xl text-4xl font-bold text-[#0F172A] fonts text-center flex flex-col gap-1.5 justify-center items-center">
         <div><span className="text-[var(--primary-color)]">Enterprise<img
           src="/underline.svg"
