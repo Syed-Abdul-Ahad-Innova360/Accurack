@@ -3,7 +3,7 @@ import React,{ useState } from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
 import { IoMdSend } from 'react-icons/io';
 
-function ChatBot({ setIsChatOpen }: { setIsChatOpen: React.Dispatch<React.SetStateAction<boolean>> }) {
+function Chatbot({ setIsChatOpen }: { setIsChatOpen: React.Dispatch<React.SetStateAction<boolean>> }) {
   const [messages, setMessages] = useState([
     {
       sender: 'Accurack',
@@ -34,7 +34,7 @@ function ChatBot({ setIsChatOpen }: { setIsChatOpen: React.Dispatch<React.SetSta
       <div className="bg-[var(--primary-color)] text-white px-4 py-3 flex items-center justify-between rounded-t-xl">
         <div className="flex items-center gap-3">
           <img
-            src={"/avatar.png"}
+            src={"./avatar.png"}
             alt="Sam"
             className="w-10 h-10 rounded-full border-2 border-white object-cover"
           />
@@ -107,4 +107,4 @@ function ChatBot({ setIsChatOpen }: { setIsChatOpen: React.Dispatch<React.SetSta
   );
 }
 
-export default ChatBot;
+export default Chatbot;
