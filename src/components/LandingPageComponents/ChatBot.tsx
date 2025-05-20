@@ -97,7 +97,6 @@
 import { useState } from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
 import { IoMdSend } from 'react-icons/io';
-import avatar from '../../assets/avatar.png'; // Replace with a valid path or image
 
 function ChatBot() {
   const [messages, setMessages] = useState([
@@ -130,7 +129,7 @@ function ChatBot() {
       <div className="bg-[var(--primary-color)] text-white px-4 py-3 flex items-center justify-between rounded-t-xl">
         <div className="flex items-center gap-3">
           <img
-            src={avatar}
+            src={"/avatar.png"}
             alt="Sam"
             className="w-10 h-10 rounded-full border-2 border-white object-cover"
           />
